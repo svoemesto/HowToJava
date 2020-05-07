@@ -11,10 +11,15 @@ public class Strings {
         char[] chars = convertStringToCharArray("Это массив из чаров");
         System.out.println(convertCharArrayToString(chars));
 
+        System.out.println(convertStringToInteger("1245"));
 
 
 
+    }
 
+    // TODO Как получить Integer из строки
+    public static int convertStringToInteger(String str) {
+        return Integer.parseInt(str);
     }
 
     // TODO Как получить строку из массива байт
